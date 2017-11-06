@@ -1,0 +1,7 @@
+spring:
+  session:
+    store-type: redis
+
+server:
+  port: ${appPort:8880}
+  additionalPorts: 8881,8882
