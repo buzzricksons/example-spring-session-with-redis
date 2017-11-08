@@ -1,5 +1,5 @@
 # Sample for Spring Session with Redis
-Sample for session replication.
+Sample for session replication using spring session.
 
 ## Usage
 1. Redis need to be ready.(localhost:6379)
