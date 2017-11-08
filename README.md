@@ -4,15 +4,15 @@ Sample for session replication.
 ## Usage
 1. Redis need to be ready.(localhost:6379)
 2. Run SpringSessionReplicationApplication.(3 instance of tomcat started. Port number is `8880`, `8881`, `8882`)
-3. Connect to `localhost:8880` and `localhost:8881` and `localhost:8882`. Below message printed.
+3. Connect to `localhost:8880` or `localhost:8881` or `localhost:8882`. Below message printed.
 ```
 current user: guest
 ```
 4. Connect to `localhost:8880/login/?name=foobar`.Below message printed.
 ```
-login user: foobar (session ID: xxxxxxxxx)
+logined user: foobar (session ID: xxxxxxxxx)
 ```
-5. Connect `localhost:8880` and `localhost:8881` and `localhost:8882`. Below message printed.
+5. Connect `localhost:8880` or `localhost:8881` or `localhost:8882`. Below message printed.
 ```
 current user: foobar
 ```
