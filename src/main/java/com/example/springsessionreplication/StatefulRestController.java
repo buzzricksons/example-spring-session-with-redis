@@ -13,7 +13,7 @@ public class StatefulRestController {
     @RequestMapping("/login")
     public String start(@RequestParam("name") String name, HttpSession session) {
         session.setAttribute(KEY, name);
-        return "login user: " + name + ", (session ID: " + session.getId() + ")";
+        return "logined user: " + name + " (session ID: " + session.getId() + ")";
     }
 
     @RequestMapping("/")
