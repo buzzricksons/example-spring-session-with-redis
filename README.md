@@ -10,7 +10,7 @@ current user: guest
 ```
 4. Connect to `localhost:8880/login/?name=foobar`.Below message printed.
 ```
-logined user: foobar (session ID: xxxxxxxxx)
+logined user: foobar (session ID: xxxxxxxxxxxx)
 ```
 5. Connect `localhost:8880` or `localhost:8881` or `localhost:8882`. Below message printed.
 ```
