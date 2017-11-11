@@ -8,7 +8,7 @@ Sample for session replication using spring session and redis.
 ```
 current user: guest
 ```
-4. Connect to `localhost:8880/login/?name=foobar`.Below message printed.
+4. Connect to `localhost:8880/login/?name=foobar`. Below message printed.
 ```
 logined user: foobar (session ID: xxxxxxxxxxxxxxxxxx)
 ```
