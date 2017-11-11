@@ -5,3 +5,7 @@ spring:
 server:
   port: ${appPort:8880}
   additionalPorts: 8881,8882
+
+reids:
+  port: 6379
+  hostName: localhost
